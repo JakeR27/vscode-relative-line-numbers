@@ -33,7 +33,7 @@ function activate(context) {
             var text = editor.document.lineAt(l).text;
             extconsole.appendLine(l);
             extconsole.appendLine(text);
-            if (text.startsWith("//") || text.trim() === "") {
+            if (text.startsWith("//") || text.trim() === "" || text.startsWith("(")) {
                 
                 continue;
             }
