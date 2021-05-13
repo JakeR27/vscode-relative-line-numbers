@@ -9,7 +9,6 @@ I created this extension to aid with writing my own **HACK ASM**, although it ha
 ## Install ##
 
 Currently, I don't know how to publish this extension to the VSCode marketplace, so until then you will need to 
-- 
 - Select `Install Extension` and search for 'Relative line numbers'
 
 ## Commands ##
