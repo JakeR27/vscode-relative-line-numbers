@@ -11,8 +11,8 @@ I created this extension to aid with writing my own **HACK ASM**, although it ha
 Currently, I don't know how to publish this extension to the VSCode marketplace, so until then you will need to 
 - Select `Install Extension` and search for 'Relative line numbers'
 - You now need to change the code in the extension
-- WINDOWS: Open Windows explorer, type %userprofile% in address bar
-- LINUX/MAC: Find your _".vscode"_ file
+- WINDOWS: Open Windows explorer, type %userprofile% in address bar, then open "*.vscode*"
+- LINUX/MAC: Find your _".vscode"_ folder
 - Open the folder for extensions
 - Open the folder *"extr0py.vscode-relative-line-numbers-x.y.z"*
 - Download my repo and copy the contents of my repo into folder above

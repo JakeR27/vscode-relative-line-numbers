@@ -1,7 +1,7 @@
 'use strict';
 var vscode = require('vscode');
 var path = require("path");
-var MAX_ICONS = 99;
+var MAX_ICONS = 999;
 function activate(context) {
     let extconsole = vscode.window.createOutputChannel("Line Nums");
     var decorations = createDecorations();
@@ -28,7 +28,7 @@ function activate(context) {
         var line = editor.selection.active.line;
         var totalLines = editor.document.lineCount;
         var totalLinesAnnotated = 0;
-        for (var l = 0; l < totalLines || totalLinesAnnotated < 99; l++) {
+        for (var l = 0; l < totalLines || totalLinesAnnotated < MAX_ICONS; l++) {
             var rangesForDecoration = [];
             var text = editor.document.lineAt(l).text;
             extconsole.appendLine(l);

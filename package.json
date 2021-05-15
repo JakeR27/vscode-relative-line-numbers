@@ -42,5 +42,9 @@
 		"publisherId": "9ec3a52e-2dcc-4742-aa03-7aeb29370b6a",
 		"publisherDisplayName": "extr0py",
 		"installedTimestamp": 1620929798831
+	},
+	"dependencies": {
+		"phantom": "^6.3.0",
+		"webpage": "^0.3.0"
 	}
 }
